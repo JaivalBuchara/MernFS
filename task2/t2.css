@@ -4,6 +4,9 @@
     margin-right: 40%;
     border: 1px solid black;
     padding: 3px;
+    background-color: rgba(249, 245, 240, 0.964);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 #outer{
@@ -12,4 +15,5 @@
 
 #inner{
     list-style-type: circle;
+    font-weight: lighter;
 }
