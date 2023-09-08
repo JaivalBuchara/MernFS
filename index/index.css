@@ -1,0 +1,43 @@
+body{
+    background-image: url(images/bgimg1.jpg);
+}
+.basichead{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
+    padding: auto;   
+}
+.center{
+    margin-top: 18%;
+    margin-left: 35%;
+    
+}
+button {
+    border: none;
+    background-color: transparent;
+    color: snow;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+#lb li{
+    float:inline-start;
+    list-style: none;
+    margin: 2px;
+    padding: 5px;
+    border: 1cap solid snow;
+}
+
+#lb li a {
+    text-decoration: none;
+    color: #0fc469;
+    display: block;
+  }
+  
+  #lb li a:hover {
+    text-decoration: none;
+    color: #963535;
+    background-color: #33B5E5;
+  }
