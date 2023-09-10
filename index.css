@@ -1,14 +1,10 @@
 body{
     background-image: url(images/bgimg1.jpg);
-}
-.basichead{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    color: black;
     margin: 5px;
     padding: auto;   
-}
-.center{
-    margin-top: 18%;
-    margin-left: 35%;
     
 }
 
@@ -42,3 +38,10 @@ button {
     color: #963535;
     background-color: #33B5E5;
   }
+div{
+    margin: 12px;
+    margin-top: 18%;
+    margin-left: 5%;
+    float: left;
+    
+}

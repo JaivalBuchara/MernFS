@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethnus task 4</title>
+    <style>
+        label{
+            margin: 2px;
+            padding: auto;
+        }
+        input{
+            margin: 18px;
+        }
+    </style>
+</head>
+<body>
+    <form autocomplete="on">
+
+        <label for="Full Name">Full Name:&emsp;</label>
+        <input type="text" id="Full Name" name = "Full Name" required><br>
+        
+        <label for="uname">Username:&emsp;</label>
+        <input type="text" id="uname" name = "uame" required><br>
+        
+        <label for="password">Password:&emsp;</label>
+        <input type="password" id="password" name = "password" required><br>
+        
+        <label for="repassword">Re Password:&emsp;</label>
+        <input type="password" id="repassword" name = "repassword" required ><br>
+        
+        <label for="address">Address:&emsp;</label>
+        <input type="text" id="address" name = "address"><br>
+        
+        <label for="age">Age:&emsp;</label>
+        <input type="text" id="age" name = "age"><br>
+        
+        <label for="Gender">Gender:&emsp;</label>
+        <input list="Gender" name = "age">
+        <datalist id = "Gender">
+        <option value ="male"></option>
+        <option value ="female"></option>
+        <option value ="others"></option>
+        </datalist>
+        <br>
+        <input type="submit" value="Save">
+
+        
+    </form>
+</body>
+</html>
