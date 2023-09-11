@@ -1,0 +1,43 @@
+.sidenav button{
+    display: block;
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    width: 120px;
+    height: 30px;
+    overflow:auto;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+#bod{
+    margin-left: 8rem;
+}
+
+
+#home{
+    top: 15px;
+    background-color: green;
+}
+button{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    left: 0;
+    cursor: pointer;
+}
+
+#t1{
+    top:60px;
+    background-color: blue;
+}
+
+#t2{
+    top:105px;
+    background-color: red;
+}
+
+#t3{
+    background-color: brown;
+    top:150px;
+}

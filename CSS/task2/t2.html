@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethnus CSS TASK 2</title>
+    <style>
+        #t1 {
+            border: 1px solid black;
+            border-collapse: separate;
+            border-spacing: 2px;
+            padding: 3px;
+            margin: 4px;
+            width: 300px;
+            height: 300px;
+            text-align: left;
+        }
+
+        #t1 tr,
+        td {
+            padding-left: 8px;
+            margin: 4px;
+            background-color: aqua;
+            color: blue;
+        }
+
+        #t1 th {
+            padding-left: 8px;
+            background-color: darkgoldenrod;
+            color: white;
+        }
+
+        #t2 {
+            border: 1px solid black;
+            border-collapse: separate;
+            border-spacing: 2px;
+            padding: 3px;
+            margin-top: 8rem;
+            margin-left: 35rem;
+            width: 300px;
+            height: 50px;
+            text-align: center;
+        }
+
+        #t2 th {
+            background-color: gray;
+            color: white;
+        }
+
+        #t2 tr,
+        td {
+            background-color: silver;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="t1">
+        <caption>
+            <h3>Vertical Navigation Bar</h3>
+        </caption>
+        <tr>
+            <th>
+                <a href="../index.html">HOME</a>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <a href="example.com">JAVA</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="example.com">HTML</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="example.com">CSS</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="example.com">BOOTSTRAP</a>
+            </td>
+        </tr>
+    </table>
+
+    <table id="t2">
+        <caption>
+            <h3>Horizontal Navigation Bar</h3>
+        </caption>
+        <tr>
+            <th><a href="../index.html">HOME</a></th>
+            <td><a href="example.com">JAVA</a></td>
+            <td><a href="example.com">HTML</a></td>
+            <td><a href="example.com">CSS</a></td>
+            <td><a href="example.com">BOOTSTRAP</a></td>
+        </tr>
+    </table>
+</body>
+
+</html>

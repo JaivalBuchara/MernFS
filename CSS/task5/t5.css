@@ -1,0 +1,36 @@
+body{
+    background-color: yellow;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row;
+}
+
+#sidenav{
+    display: flexbox;
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    flex-direction: column;
+    left: 3%;
+    top: 5%;
+}
+
+#sidenav button{
+    width: 150px;
+    background: linear-gradient(to right, white 90%, black 10%);
+    transition: 0.3s;
+    border: none;
+    margin: 3px;
+    margin-right: none;
+    text-decoration: none;
+    color: darkcyan;
+    text-align: left;
+}
+#sidenav #home {
+    color: maroon;
+}
+#sidenav button:hover{
+    background: linear-gradient(to left,white 10%,black 90% );
+    cursor: pointer;
+}
