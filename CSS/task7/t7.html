@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETHNUS CSS TASK 7</title>
+    <link rel="stylesheet" href="t7.css">
+</head>
+
+<body>
+    <div id="bg">
+        <div id="bg1">
+            <form action="/action_page.php" id="form1">
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Enter Name" id="name" name="name">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Enter Email" id="email" name="email">
+                <br><br>
+                <label for="pass">Password:</label>
+                <input type="password" placeholder="Enter Password" id="pass" name="pass">
+                <br><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" placeholder="Enter Phone number" name="phone" pattern="[1-9]{1}[0-9]{9}">
+                <br><br>
+                <label>Gender:</label>
+                <label for="male" class="gender-checkbox">Male:</label>
+                <input type="radio" id="male" name="sex">
+                <label for="female" class="gender-checkbox">Female:</label>
+                <input type="radio" id="female" name="sex">
+                <label for="other" class="gender-checkbox">Other:</label>
+                <input type="radio" id="other" name="sex">
+                <br><br>
+                <label for="lang">Language:</label>
+                <select id="lang" name="lang">
+                    <option value="lang">Select Language</option>
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="German">German</option>
+                </select>
+                <br><br>
+                <label for="zip">Zip Code:</label>
+                <input type="text" id="zip" name="zip">
+                <br><br>
+                <label for="abt">About:</label>
+                <input type="text" placeholder="Write about yourself..." id="abt" name="abt">
+                <br><br>
+
+                <button id="rbut">Register</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
