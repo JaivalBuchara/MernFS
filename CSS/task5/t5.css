@@ -4,6 +4,7 @@ body{
 .flex-container{
     display: flex;
     flex-flow: row;
+
 }
 
 #sidenav{
@@ -33,4 +34,10 @@ body{
 #sidenav button:hover{
     background: linear-gradient(to left,white 10%,black 90% );
     cursor: pointer;
+}
+
+#main{
+    margin-left :248px ;
+    display: block;
+    color: maroon;
 }
