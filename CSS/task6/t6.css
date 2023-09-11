@@ -1,0 +1,63 @@
+#main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+#uimg{
+    display: block;
+    margin-left: 400px;
+    margin-top: 10px;
+    height: 300px;
+}
+
+#form {
+    margin-left: 300px;
+    margin-bottom: 3px;
+}
+
+#form input{
+    margin-top: none;
+    width: 40%;
+}
+#login{
+    margin-top: 3px;
+    color: white;
+    background-color: rgb(31, 201, 31);
+    border: 0 solid transparent;
+    border-radius: 3px 3px 3px 3px ;
+}
+#login:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+#form #rem{
+    width: min-content;
+}
+
+#form #cancel{
+    width: min-content;
+    color: white;
+    background-color: red;
+    border: 0 solid transparent;
+    border-radius: 3px 3px 3px 3px ;
+}
+#cancel:hover{
+    cursor: pointer;
+}
+
+a{
+    margin-left: 16rem;
+    text-decoration: underline;
+    color: black;
+    font-weight: normal;
+    font-size: small;
+}
+a:hover{
+    cursor: pointer;
+    background-color: aquamarine; 
+}
+
+#box{
+    background-color: rgb(241 241 241);
+    width: 41%;
+}
